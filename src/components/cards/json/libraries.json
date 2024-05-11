@@ -1,0 +1,48 @@
+{
+  "libraries": [
+    {
+      "name": "bootstrap",
+      "npm_install": "npm install bootstrap"
+    },
+    {
+      "name": "fontawesome",
+      "npm_install": "npm install font-awesome"
+    },
+    {
+      "name": "tailwind",
+      "npm_install": "npm install tailwindcss"
+    },
+    {
+      "name": "GSAP",
+      "npm_install": "npm install gsap"
+    },
+    {
+      "name": "material",
+      "npm_install": "npm install @material-ui/core"
+    },
+    {
+      "name": "router",
+      "npm_install": "npm install react-router-dom"
+    },
+    {
+      "name": "swiper",
+      "npm_install": "npm install swiper"
+    },
+    {
+      "name": "redux",
+      "npm_install": "npm install redux"
+    },
+    {
+      "name": "testinglibrary",
+      "npm_install": "npm i @testing-library/react"
+    },
+    {
+      "name": "styledcomponents",
+      "npm_install": "npm i styled-components"
+    },
+    {
+      "name": "framermotion",
+      "npm_install": "npm i framer-motion"
+    }
+  ]
+}
