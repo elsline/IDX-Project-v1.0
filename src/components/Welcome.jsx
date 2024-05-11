@@ -6,8 +6,8 @@ import MainBtn from "./buttons/MainBtn";
 function Welcome() {
   return (
     <Transition>
-      <section>
-        <div className="container flex flex-col  align-center justify-center">
+      <section className="lg:block  hidden ">
+        <div className="container flex flex-col h-[100vh]  align-center justify-center">
           <div className="welcome gap-4 lg:gap-8 flex-col flex text-center">
             <h1 className="text-3xl md:text-4xl lg:text-5xl ">
               Welcome to{" "}
@@ -35,6 +35,15 @@ function Welcome() {
               name="Github"
               className="bg-white text-black flex  items-center gap-2 button "
             />
+          </div>
+        </div>
+      </section>
+      <section className="lg:hidden  block ">
+        <div className="container flex flex-col h-[100vh]  align-center justify-center">
+          <div className="welcome gap-4 lg:gap-8 flex-col flex text-center">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl ">
+              Open from Desktop
+            </h1>
           </div>
         </div>
       </section>
